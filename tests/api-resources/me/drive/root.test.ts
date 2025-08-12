@@ -8,7 +8,7 @@ const client = new OneDrive({
 });
 
 describe('resource root', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('listChildren', async () => {
     const responsePromise = client.me.drive.root.listChildren();
     const rawResponse = await responsePromise.asResponse();
