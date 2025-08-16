@@ -722,7 +722,9 @@ export class OneDrive {
 
   me: API.Me = new API.Me(this);
 }
+
 OneDrive.Me = Me;
+
 export declare namespace OneDrive {
   export type RequestOptions = Opts.RequestOptions;
 
